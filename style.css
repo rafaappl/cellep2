@@ -1,0 +1,89 @@
+h3,
+h4 {
+  margin: 0px 0 10px;
+  color: violet;
+}
+h1,
+h2 {
+  color: grey;
+  margin: 50px 0 50px;
+}
+.snsContainer {
+  float: right;
+  min-width: 300px;
+}
+.snsContainer ul {
+}
+.snsContainer li {
+  float: left;
+  margin-right: 20px;
+
+  list-style-type: none;
+}
+i {
+  color: violet;
+  font-size: 24px;
+}
+i:hover {
+  color: blueviolet;
+}
+p {
+  text-align: justify;
+}
+.carousel-item img {
+  margin-top: -70px;
+}
+.nav-item a {
+  behavior: smooth;
+}
+#agenda tr,
+#agenda thead {
+  height: 100px;
+  width: 14.29%;
+  vertical-align: middle;
+  color: white !important;
+}
+#agenda thead {
+  background: blueviolet !important;
+}
+#agenda td {
+  background: #141414;
+}
+
+.bg-info {
+  background-color: violet !important;
+}
+.btn {
+  float: right;
+  margin-top: 30px;
+  background: violet;
+  border: 0px;
+}
+.btn:hover {
+  background: blueviolet;
+}
+.card {
+  float: right;
+  max-height: 200px;
+  margin-top: 25px;
+  text-align: left !important;
+  background: #141414;
+  color: whitesmoke;
+}
+.nav-link a {
+  color: violet !important;
+}
+.nav-link a:hover {
+  color: blueviolet !important;
+}
+footer {
+  width: 100%;
+  height: 400px;
+  background: #141414;
+}
+footer p {
+  width: 100%;
+  text-align: center;
+  color: violet;
+  margin-top: 160px;
+}

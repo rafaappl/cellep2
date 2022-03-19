@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dido Website</title>
+  </head>
+  <body class="bg-dark">
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#carouselExampleCaptions">
+            <img
+              src="https://www.didomusic.com/_assets/images/logo-white.png"
+              alt="Dido"
+              width="80"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#discografia">Discografia</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#banda">Banda</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#agenda">Agenda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="snsContainer">
+          <ul>
+            <li>
+              <a
+                href="https://twitter.com/didoofficial"
+                target="_blank"
+                title="Twitter"
+                ><i class="bi-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/dido"
+                target="_blank"
+                title="Facebook"
+                ><i class="bi-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://instagram.com/dido"
+                target="_blank"
+                title="Instagram"
+                ><i class="bi-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UC9Nyyq3qHochdTq1klPyVIQ"
+                target="_blank"
+                title="Youtube"
+                ><i class="bi-youtube"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://open.spotify.com/artist/2mpeljBig2IXLXRAFO9AAs?si=kEyZS4R1SkKLhc0SQSbJqw"
+                target="_blank"
+                title="Spotify"
+                ><i class="bi-spotify"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://geo.itunes.apple.com/us/artist/dido/20646"
+                target="_blank"
+                title="Apple iTunes"
+                ><i class="bi-apple"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner" style="max-height: 80vh;">
+          <div class="carousel-item active">
+            <img
+              src="https://i.ytimg.com/vi/74x0-T-bI_o/maxresdefault.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://i.ytimg.com/vi/WLlcIa-9if4/maxresdefault.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://i.pinimg.com/originals/e4/59/fa/e459fa9d067ff5acb039b5c38adce826.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container">
+        <div class="row my-4">
+          <div class="col-md-7">
+            <h2 id="discografia">Discografia</h2>
+
+            <img
+              style="float: left; margin: 0px 20px 10px 0px;"
+              src="https://studiosol-a.akamaihd.net/letras/272x272/albuns/6/2/4/5/4857.jpg"
+              width="100"
+            />
+            <h4>No Angel (1999–2001)</h4>
+            <p class="text-white">
+              Em 1999, Dido lançou o seu primeiro álbum a solo, No Angel, logo
+              após a sua participação na bem-sucedida turnê de Sarah McLachlan,
+              "Lilith Fair". No entanto, o álbum só veio a alcançar notoriedade
+              no final de 2000, quando a canção "Thank You" foi adaptada pelo
+              rapper Eminem, em "Stan", que mais tarde veio a se tornar um
+              sucesso em todo o planeta. Além de "Thank You", "Here With Me" foi
+              outro destaque, que tornou-se famosa ao ser tema de abertura do
+              seriado Roswell (1999-2001). A música ganhou uma versão de Sarah
+              Brightman. O "empurrão" dado por Eminem e Sarah levou as vendas de
+              No Angel a ultrapassar os doze milhões de cópias em 2001,
+              tornando-se o disco mais vendido do planeta nesse ano.
+              <br /><br /><br /><br />
+            </p>
+
+            <img
+              style="float: left; margin: 0px 20px 10px 0px;"
+              src="https://studiosol-a.akamaihd.net/uploadfile/letras/albuns/0/6/f/7/4856.jpg"
+              width="100"
+            />
+            <h4>Life for Rent (2003-2004)</h4>
+            <p class="text-white">
+              Dido lançou seu segundo álbum, Life for Rent, com a participação
+              do irmão e dos produtores Rick Nowels e P*nut, em 2003. O álbum se
+              destacou com a canção "White Flag", que foi número 1 nas paradas
+              europeias. O álbum vendeu 9 milhões de cópias, e bateu um recorde
+              vendendo 400 mil cópias no Reino Unido em apenas uma semana. A
+              música que Dido também se destacou foi "My Lover's Gone", que foi
+              usada na novela 'O CLONE', como tema de Mel (Débora Falabella) e
+              de Xande (Marcello Novaes).
+            </p>
+            <br /><br /><br /><br />
+
+            <img
+              style="float: left; margin: 0px 20px 10px 0px;"
+              src="https://upload.wikimedia.org/wikipedia/pt/3/36/Dido_Safe_Trip_Home.jpeg"
+              width="100"
+            />
+            <h4>Safe Trip Home (2008)</h4>
+            <p class="text-white">
+              Seu terceiro álbum, Safe Trip Home, foi lançado em 3 de Novembro
+              de 2008. Uma faixa de nome Look no Further foi disponibilizada em
+              seu site em 22 de agosto e esteve disponível para download até 7
+              de setembro. Um single intitulado Don't Believe in Love chegou às
+              rádios em setembro. As gravações do álbum foram feitas no Abbey
+              Road, em Londres, e no estúdio pessoal de Jon Brion, em Los
+              Angeles. Durante a produção do álbum, Dido teve aulas noturnas de
+              música e de Inglês na Universidade da Califórnia, em Los Angeles.
+              O lançamento do álbum foi adiado várias vezes, embora nenhuma
+              razão oficial tenha sido dada para o acontecimento.
+            </p>
+            <br /><br /><br /><br />
+
+            <img
+              style="float: left; margin: 0px 20px 10px 0px;"
+              src="https://www.recordshopx.com/cover/normal/6/65/658674.jpg"
+              width="100"
+            />
+            <h4>Still on My Mind (2018-presente)</h4>
+            <p class="text-white">
+              Dido assinou com a BMG para lançar seu quinto álbum no início de
+              2019. Dido trabalhou com seu irmão e antigo colaborador Rollo
+              Armstrong, juntamente com Rick Nowels e Ryan Louder. Em 9 de
+              novembro de 2018, Dido anunciou o título e capa do novo trabalho,
+              Still on My Mind, que foi lançado em 8 de março de 2019.
+            </p>
+            <br /><br /><br /><br />
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-4">
+            <h2>História</h2>
+            <h4>Primeiros passos</h4>
+            <p class="text-white">
+              Dido entrou na Guildhall School of Music de Londres aos seis anos
+              de idade, e na adolescência já tocava com desenvoltura piano e
+              violino, além de saber trabalhar em estúdio. Depois de viajar com
+              um conjunto de música clássica, ela foi trabalhar como
+              publicitária, enquanto cantava pela noite londrina.
+            </p><br/><br/>
+            <h4>Carreira</h4>
+            <p class="text-white">
+              Dido iniciou a carreira na década de 1990, fazendo participações
+              especiais nos álbuns da banda de dance music Faithless, da qual
+              faz parte seu irmão, o DJ e produtor Rollo Armstrong. Em 1996, o
+              grupo lançou seu primeiro disco, "Reverence", que ultrapassou as
+              cinco milhões de cópias vendidas em todo o mundo. Ao todo, Dido
+              participou de todos os cinco álbuns de estúdio da banda. O sucesso
+              fez Dido apostar em si mesma, tendo começado a gravar seu próprio
+              material, música suave, levemente dançante, que combina elementos
+              de pop acústico e eletrônico.
+            </p><br/><br/>
+            <h4 id="banda">Integrantes da Banda</h4>
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/David_Gilmour_-_live_8_-_edited.jpg/200px-David_Gilmour_-_live_8_-_edited.jpg" class="img-fluid rounded-start" alt="..." />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Guitarra</h5>
+                      <p class="card-text">
+                          David Jon Gilmour, CBE (Cambridge, 6 de março de 1946).
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="https://pbs.twimg.com/profile_images/506108226815815680/IEfoiqRB_400x400.jpeg" class="img-fluid rounded-start" alt="..." />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Baixo</h5>
+                      <p class="card-text">
+                          Stuart "Stu" Hamm (nascido em 8 de Fevereiro de 1960).
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="data:image/jpeg;base64,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" class="img-fluid rounded-start" alt="..." />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Bateria</h5>
+                    <p class="card-text">
+                      William Scott "Bill" Bruford (17 de Maio de 1949).
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+
+          </div>
+
+        <div class="row my-4" id="agenda">
+          <div class="col-md-12">
+            <h2>Agenda</h2>
+            <table
+              id="agenda"
+              class="table table-bordered text-center text-white"
+            >
+              <thead>
+                <tr>
+                  <th scope="col">Segunda-feira</th>
+                  <th scope="col">Terça-feira</th>
+                  <th scope="col">Quarta-feira</th>
+                  <th scope="col">Quinta-feira</th>
+                  <th scope="col">Sexta-feira</th>
+                  <th scope="col">Sábado</th>
+                  <th scope="col">Domingo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="align-middle"></td>
+                  <td class="align-middle"></td>
+                  <td class="align-middle"></td>
+                  <td class="align-middle bg-info">1</td>
+                  <td class="align-middle">2</td>
+                  <td class="align-middle">3</td>
+                  <td class="align-middle">4</td>
+                </tr>
+                <tr>
+                  <td class="align-middle">5</td>
+                  <td class="align-middle">6</td>
+                  <td class="align-middle">7</td>
+                  <td class="align-middle">8</td>
+                  <td class="align-middle">9</td>
+                  <td class="align-middle bg-info">10</td>
+                  <td class="align-middle">11</td>
+                </tr>
+                <tr>
+                  <td class="align-middle">12</td>
+                  <td class="align-middle">13</td>
+                  <td class="align-middle">14</td>
+                  <td class="align-middle">15</td>
+                  <td class="align-middle">16</td>
+                  <td class="align-middle bg-info">17</td>
+                  <td class="align-middle bg-info">18</td>
+                </tr>
+                <tr>
+                  <td class="align-middle">19</td>
+                  <td class="align-middle">20</td>
+                  <td class="align-middle bg-info">21</td>
+                  <td class="align-middle">22</td>
+                  <td class="align-middle">23</td>
+                  <td class="align-middle bg-info">24</td>
+                  <td class="align-middle bg-info">25</td>
+                </tr>
+                <tr>
+                  <td class="align-middle">26</td>
+                  <td class="align-middle">27</td>
+                  <td class="align-middle">28</td>
+                  <td class="align-middle">29</td>
+                  <td class="align-middle">30</td>
+                  <td class="align-middle"></td>
+                  <td class="align-middle"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="row my-4 text-white">
+          <div class="col-md-6">
+            <ul>
+              <li>01/04 - Credicard Hall, São Paulo</li>
+              <li>10/04 - Teatro Santander, São Paulo</li>
+              <li>17/04 - Estadio Mineirão, Minas Gerais</li>
+              <li>18/04 - Estadio Mineirão, Minas Gerais</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul>
+              <li>21/04 - Complexo Olímpico, Rio de Janeiro</li>
+              <li>24/04 - Teatro Bradesco, Fortaleza</li>
+              <li>25/04 - Teatro Bradesco, Fortaleza</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row my-4" id="contato">
+          <div class="col-md-12">
+            <h2>Contato</h2>
+
+            <form action="javascript:alert('Sucesso')">
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="Ex.: João da Silva"
+                />
+                <label for="floatingInput">Nome completo</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="Ex.: joaodasilva@exemplo.com"
+                />
+                <label for="floatingInput">Email</label>
+              </div>
+              <div class="form-floating">
+                <textarea
+                  class="form-control"
+                  placeholder="Digite aqui sua mensagem..."
+                  id="floatingTextarea2"
+                  style="height: 100px;"
+                ></textarea>
+                <label for="floatingTextarea2">Sua mensagem</label>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg btn-block">
+                Enviar
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row my-4">
+              <div class="col-md-12" style="text-align:center">
+                <p>2022 - Todos os direitos reservados</p>
+                <img src="logo-white.png" width="100"/>
+              </div>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
